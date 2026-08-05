@@ -198,17 +198,6 @@ The project includes SQL queries covering:
 |---------------------|-------------------|
 | ![](visualizations/discount_vs_profit.png) | ![](visualizations/sales_distribution.png) |
 
----
-
-### Discount vs Profit
-
-![Discount vs Profit](visualizations/discount_vs_profit.png)
-
----
-
-### Sales Distribution
-
-![Sales Distribution](visualizations/sales_distribution.png)
 
 ---
 
