@@ -21,6 +21,17 @@ The pipeline performs the following tasks:
 
 ---
 
+## 📌 Pipeline Outputs
+
+After running the pipeline, the following artifacts are created automatically:
+
+- `data/processed/cleaned_sales.csv` – cleaned dataset
+- `database/sales.db` – SQLite database
+- `visualizations/` – generated charts
+- `logs/pipeline.log` – execution logs
+
+---
+
 ## 🏗️ ETL Pipeline Architecture
 
 ```text
@@ -57,13 +68,13 @@ sales-etl-pipeline/
 │    │   └── sales.csv
 │    │
 │    └── processed/
-│        └── cleaned_sales.csv
+│        └── cleaned_sales.csv (generated after running the pipeline)
 │
 ├── database/
-│   └── sales.db
+│   └── sales.db (generated after running the pipeline)
 │
 ├── logs/
-│   └── pipeline.log
+│   └── pipeline.log (generated after execution)
 │
 ├── scripts/
 │   ├── config.py
